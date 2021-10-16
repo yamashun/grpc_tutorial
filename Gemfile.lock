@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    google-protobuf (3.18.1-universal-darwin)
+    googleapis-common-protos-types (1.2.0)
+      google-protobuf (~> 3.14)
+    grpc (1.41.0-universal-darwin)
+      google-protobuf (~> 3.17)
+      googleapis-common-protos-types (~> 1.0)
+
+PLATFORMS
+  arm64-darwin-20
+
+DEPENDENCIES
+  grpc
+
+BUNDLED WITH
+   2.2.22
